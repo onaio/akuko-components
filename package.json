@@ -1,6 +1,6 @@
 {
-  "name": "@akukoio/components",
-  "version": "0.0.3",
+  "name": "@akuko/components",
+  "version": "0.0.4",
   "author": "Akuko",
   "license": "MIT",
   "main": "dist/index.js",
