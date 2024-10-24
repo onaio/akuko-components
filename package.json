@@ -1,6 +1,6 @@
 {
   "name": "@akukoio/hello-world",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "author": "Akuko",
   "license": "MIT",
   "main": "dist/index.js",
@@ -22,7 +22,8 @@
     "next": "15.0.1",
     "rc-picker": "2.6.5",
     "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021"
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "use-context-selector": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
