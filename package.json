@@ -1,6 +1,6 @@
 {
   "name": "@akukoio/hello-world",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "author": "Akuko",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "build": "next build",
     "build:lib": "tsc --project tsconfig.lib.json && yarn copy-css",
     "lint": "next lint",
-    "copy-css": "copyfiles -u 1 src/app/components/**/*.css dist/"
+    "copy-css": "copyfiles -u 3 src/app/components/**/*.css dist/components/"
   },
   "files": [
     "dist",
