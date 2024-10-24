@@ -1,6 +1,6 @@
 {
   "name": "@akukoio/hello-world",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "author": "Akuko",
   "license": "MIT",
   "main": "dist/index.js",
