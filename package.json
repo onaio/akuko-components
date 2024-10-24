@@ -1,14 +1,14 @@
 {
   "name": "@akukoio/hello-world",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Akuko",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "dev": "next dev",
-    "build": "tsc && next build",
-    "start": "next start",
+    "build": "next build",
+    "build:lib": "tsc --project tsconfig.lib.json",
     "lint": "next lint"
   },
   "dependencies": {
