@@ -3,34 +3,15 @@
     "outDir": "./dist", // Where to output the compiled JavaScript files
     "declaration": true, // Emit type declaration files
     "declarationDir": "./dist/types", // Where to output the type declaration files
-    "jsx": "preserve", // Enable JSX support for React
+    "jsx": "react-jsx", // Enable JSX support for React
     "module": "esnext", // Use ES modules
     "target": "es5", // Target ES5 for compatibility
     "moduleResolution": "node", // Resolve modules like Node.js
     "esModuleInterop": true, // Enable interop for default imports
     "strict": true, // Enable strict type-checking options
     "skipLibCheck": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "noEmit": true,
-    "incremental": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "include": [
-    "src",
-    ".next/types/**/*.ts"
-  ], // Include the 'src' directory for compilation
-  "exclude": [
-    "node_modules"
-  ] // Exclude the 'node_modules' directory
+  "include": ["src"], // Include the 'src' directory for compilation
+  "exclude": ["node_modules"]
 }
